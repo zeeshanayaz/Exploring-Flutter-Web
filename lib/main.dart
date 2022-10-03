@@ -16,6 +16,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: Colors.white,
+        splashColor: const Color.fromARGB(255, 31, 229, 146),
         textTheme: Theme.of(context).textTheme.apply(fontFamily: 'Open Sans'),
       ),
       home: const HomeView(),
